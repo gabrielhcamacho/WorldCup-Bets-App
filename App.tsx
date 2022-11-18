@@ -6,7 +6,7 @@ import { THEME } from './src/styles/theme'
 
 import { Loading } from "./src/components/Loading";
 import { SignIn } from "./src/screens/SignIn";
-import { Pools } from "./src/screens/Pools";
+import { Groups } from "./src/screens/Groups";
 import { AuthContextProvider } from "./src/context/AuthContext";
 
 
@@ -22,7 +22,7 @@ export default function App() {
           backgroundColor="transparent"
           translucent
         />
-        {fontsLoaded ? <Pools /> : <Loading />}
+        {fontsLoaded ? <Groups /> : <Loading />}
       </AuthContextProvider>
     </NativeBaseProvider>
   );

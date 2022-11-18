@@ -16,16 +16,16 @@ export function Find() {
         <VStack mt={8} mx={5} alignItems="center">
 
             <Heading fontFamily="heading" color="white" fontSize="xl" mb={8} textAlign="center">
-                Search a pool by it's code
+                Search a poll group by it's code
             </Heading>
 
             <Input
                 mb={2}
-                placeholder="What's the pool code?"
+                placeholder="What's the poll code?"
             />
 
             <Button
-                title="SEARCH POOL"
+                title="SEARCH POLL"
             />
 
         </VStack>

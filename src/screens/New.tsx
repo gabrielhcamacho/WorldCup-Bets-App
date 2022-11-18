@@ -17,20 +17,20 @@ export function New() {
             <Logo/>
 
             <Heading fontFamily="heading" color="white" fontSize="xl" my={8} textAlign="center">
-                Create your own betting pool and share it with your friends!
+                Create your own group poll and share it with your friends!
             </Heading>
 
             <Input
                 mb={2}
-                placeholder="Your pool name"
+                placeholder="Your poll group name"
             />
 
             <Button
-                title="CREATE MY POOL"
+                title="CREATE MY POLL"
             />
 
             <Text color="gray.200" fontSize="sm" textAlign="center" px={6} mt={4}>
-                After creating your pool, you'll receive a unique 
+                After creating your group poll, you'll receive a unique 
                 code that you can use to invite other to join
             </Text>
 
