@@ -25,7 +25,7 @@ export function Find() {
             />
 
             <Button
-                title="CREATE MY POOL"
+                title="SEARCH POOL"
             />
 
         </VStack>
