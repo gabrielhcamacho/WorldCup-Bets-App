@@ -8,13 +8,13 @@ import { Header } from '../components/Header'
 import { Input } from '../components/Input'
 
 
-export function New() {
+export function NewGroup() {
   return (
     <VStack flex={1} bgColor="gray.900">
         <Header title="Create New Poll"/>
 
         <VStack mt={8} mx={5} alignItems="center">
-            <Logo/>
+            {/* <Logo/> */}
 
             <Heading fontFamily="heading" color="white" fontSize="xl" my={8} textAlign="center">
                 Create your own group poll and share it with your friends!
